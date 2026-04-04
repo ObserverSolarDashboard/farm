@@ -1,102 +1,89 @@
-# 🌿 Off-Grid Homestead Blueprint — Multi-Region Planning System
+# 🌿 Off-Grid Homestead Blueprint v4.0 — Multi-Region Planning System
 
-A comprehensive, interactive dashboard for planning a 1-acre off-grid homestead optimized for three western US locations: **Boise, Idaho**, **Prescott, Arizona**, and **Reno, Nevada**.
+A comprehensive, interactive dashboard for planning a 1-acre off-grid homestead across **8 western US locations**.
 
 ## 🔗 Live Demo
 
-Visit: `https://YOUR-USERNAME.github.io/offgrid-farm-blueprint/`
-
-*(Replace YOUR-USERNAME with your GitHub username after setup)*
+`https://YOUR-USERNAME.github.io/offgrid-farm-blueprint/`
 
 ## Features
 
-- **🏔️ Multi-Location Support** — Toggle between Boise, Prescott, and Reno. All content dynamically adjusts: planting dates, frost schedules, soil amendments, water strategies, risk assessments, and location-specific tips.
-- **🌙/☀️ Dark & Light Mode** — Full theme toggle with persistent preference storage.
-- **🔤 Font Size Controls** — Four size settings (A−, A, A+, A++) for accessibility.
-- **📱 Mobile Responsive** — Works on phones, tablets, and desktops.
-- **🌱 Expandable Instructions** — Click any section for detailed step-by-step how-to guides covering every topic from coop construction to cheese making.
+| Feature | Description |
+|---------|-------------|
+| 🏔️ **8 Locations** | Boise ID, Prescott AZ, Reno NV, Redding CA, Pollock Pines CA, Taos NM, Cañon City CO, Lone Pine CA |
+| 🌙☀️ **Dark/Light Mode** | Full theme toggle, persistent |
+| 🔤 **Font Size Controls** | 4 sizes (A−, A, A+, A++) for accessibility |
+| 📄 **PDF Export** | Full-content export with all sections expanded |
+| 📱 **Responsive** | Mobile, tablet, desktop, and print optimized |
+| 🔥 **Disaster Protocols** | Fire/smoke, earthquake, radiation/solar event response |
 
-## Dashboard Tabs
+## Dashboard Tabs (9 Total)
 
 | Tab | Contents |
 |-----|----------|
-| 🏡 Overview | Permaculture zone layout, priority order, detailed build instructions for all four zones |
-| 🌱 Seed Vault | Heaven's Harvest heirloom vault + supplemental seeds with planting dates, harvest windows, and growing tips |
-| 📅 Calendar | Month-by-month task list, filterable by month, with season extension build guides |
-| 🐔 Livestock | Chickens, rabbits, Nigerian Dwarf goats — breeds, housing, feed, breeding, processing, health management |
-| ⚡ Off-Grid | Water systems, food preservation (root cellar, canning, fermentation, dehydration), minimal solar, manual tools |
-| 🛡️ Resilience | Location risk assessment, Davidson/ECDO framework positioning, skill timeline, Year 1 budget |
+| 🏡 Overview | Permaculture zone layout, priority order, detailed build instructions |
+| 🌱 Seeds | Heaven's Harvest vault + supplemental seeds with harvest windows |
+| 📅 Calendar | Month-by-month tasks, filterable, season extension guides |
+| 🐔 Livestock | Chickens, rabbits, goats — complete setup, breeding, processing |
+| ⚡ Off-Grid | Water, preservation, salt strategy, solar, heating, soil building |
+| 🏗️ Structures | **Earth root cellar** (no metal, 7-step build), **greenhouse** (6-step build) |
+| 🛠️ Tools | Complete manual tool lists, DIY build instructions (cheese press, soil sieve, shaving horse) |
+| 🔥 Disaster | Fire/smoke response, earthquake protocol, radiation/KI/solar event procedures |
+| 🛡️ Resilience | Location risk assessment, Davidson/ECDO positioning, skill timeline, budget |
 
-## Seed Sources
+## New in v4.0
 
-- **Heaven's Harvest** — Foundation vault (non-GMO, heirloom, open-pollinated)
-- **Baker Creek Heirloom Seeds** — Specialty varieties, heritage corn, medicinals
-- **Seed Savers Exchange** — Garlic, sunchokes, rare heirlooms
-- **Territorial Seed Company** — Pacific Northwest adapted varieties
+- **5 new locations**: Redding CA, Pollock Pines CA, Taos NM, Cañon City CO, Lone Pine CA
+- **Earth Root Cellar**: Complete build guide using stone, rammed earth, or timber — zero metal construction
+- **Greenhouse**: 6-step build with thermal mass heating (no electricity)
+- **Tools & DIY Tab**: Kitchen, garden, workshop, laundry tools + build instructions
+- **Salt Strategy**: Procurement, types, storage, and long-term sourcing
+- **Disaster Protocols**: Fire/smoke, earthquake, radiation response with grid-down assumptions
+- **PDF Export**: One-click full-content export for offline reference
+- **Mobile dropdown**: Location selector converts to dropdown on small screens
 
-## How to Host on GitHub Pages (Free)
+## GitHub Pages Setup
 
-### Step 1: Create a GitHub Account
-If you don't have one, go to [github.com](https://github.com) and sign up (free).
+### Step 1: Create Repository
+1. Go to [github.com](https://github.com) → **+** → **New repository**
+2. Name: `offgrid-farm-blueprint`
+3. Set to **Public**
+4. Click **Create repository**
 
-### Step 2: Create a New Repository
-1. Click the **+** button in the top-right corner → **New repository**
-2. Name it: `offgrid-farm-blueprint` (or whatever you prefer)
-3. Set it to **Public**
-4. Check **"Add a README file"** (optional — we'll replace it)
-5. Click **Create repository**
+### Step 2: Upload Files
+1. Click **Add file** → **Upload files**
+2. Upload: `index.html` and `README.md`
+3. Click **Commit changes**
 
-### Step 3: Upload Files
-1. In your new repository, click **"Add file"** → **"Upload files"**
-2. Drag and drop these two files:
-   - `index.html` (the dashboard)
-   - `README.md` (this file)
-3. Click **"Commit changes"**
+### Step 3: Enable Pages
+1. **Settings** → **Pages**
+2. Source: **Deploy from a branch**
+3. Branch: **main** / **/ (root)**
+4. Click **Save**
+5. Wait 1-2 minutes
 
-### Step 4: Enable GitHub Pages
-1. Go to your repository **Settings** (gear icon)
-2. In the left sidebar, click **Pages**
-3. Under **Source**, select **Deploy from a branch**
-4. Under **Branch**, select **main** and **/ (root)**
-5. Click **Save**
-6. Wait 1-2 minutes for deployment
-
-### Step 5: Access Your Site
-Your dashboard is now live at:
-```
-https://YOUR-USERNAME.github.io/offgrid-farm-blueprint/
-```
+Your site is live at: `https://YOUR-USERNAME.github.io/offgrid-farm-blueprint/`
 
 ## File Structure
 
 ```
 offgrid-farm-blueprint/
-├── index.html    ← The complete dashboard (single file, self-contained)
-└── README.md     ← This documentation file
+├── index.html    ← Complete dashboard (single file, self-contained)
+└── README.md     ← This documentation
 ```
 
-The entire dashboard is a **single HTML file** with all CSS and JavaScript inline. No build tools, no npm, no frameworks, no external dependencies beyond Google Fonts. It works offline once loaded (fonts degrade gracefully to system fonts).
+Single-file HTML. No build tools, npm, or frameworks. Only external dependency: Google Fonts (degrades gracefully to system fonts offline).
 
-## Frameworks & Preparedness
+## Frameworks Referenced
 
-This dashboard integrates:
-- **Ben Davidson's Solar Micronova / Disaster Cycle** research for geomagnetic resilience planning
-- **The Ethical Skeptic's ECDO** (Exothermic Core-Mantle Decoupling) theory for geographic positioning
-- **MECMUS-2026** (Munch & Grayver) magnetotelluric conductivity data for bedrock assessment
-- Conventional agricultural best practices for each hardiness zone
-
-## Tech Stack
-
-- Pure HTML5, CSS3, JavaScript (ES6+)
-- IBM Plex Sans & IBM Plex Mono typography
-- CSS custom properties for theming
-- Zero external dependencies (besides Google Fonts)
-- No build step required
+- Ben Davidson's Solar Micronova / Disaster Cycle
+- The Ethical Skeptic's ECDO theory
+- MECMUS-2026 magnetotelluric conductivity research
+- USDA hardiness zones and extension office data
 
 ## License
 
-Personal use. Not financial, agricultural, or investment advice. Verify all planting dates, regulations, and water rights with local authorities before implementation.
+Personal use. Not agricultural, financial, or medical advice. Verify all planting dates, regulations, water rights, and building codes with local authorities.
 
 ---
-
-*Built March 2026 · Data from USDA, University Extension offices, state water resource agencies, and peer-reviewed geological research.*
+*Built April 2026 · v4.0*
